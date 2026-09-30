@@ -157,11 +157,4 @@ app.delete('/products/:id', (req, res) => {
 
     res.status(204).send();
 });
-
-// ==========================================
-// DÉMARRAGE DU SERVEUR
-// ==========================================
-
-app.listen(PORT, () => {
-    console.log(`Serveur lancé sur http://localhost:${PORT}`);
-});
+app.listen(3000);
